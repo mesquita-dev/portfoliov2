@@ -81,7 +81,7 @@ export default function Header() {
             {/* Nav principal (ESCONDIDO em telas pequenas) */}
             <nav className="hidden sm:flex text-sm justify-center gap-10 py-2 px-6 bg-black rounded-full w-fit">
                 <Link href="/" className="hover:text-gray-200">© Lucas Mesquita</Link>
-                <Link href="/about" className="hover:text-gray-200">Sobre</Link>
+                <Link href="/sobre" className="hover:text-gray-200">Sobre</Link>
                 <a href="https://drive.google.com/file/d/1pQ26JV6tg-zMKyUQET9btAyaSgvBFD8b/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="hover:text-gray-200">Currículo</a>
                 <a href="mailto:lmesquita2k@gmail.com" className="hover:text-gray-200">Enviar Email</a>
             </nav>
@@ -92,7 +92,7 @@ export default function Header() {
                 className={`absolute top-14 right-8 w-44 bg-black text-white rounded-lg sm:hidden`}
             >
                 <Link href="/" className="p-4" onClick={() => setMenuOpen(false)}>© Lucas Mesquita</Link>
-                <Link href="/about" className="p-4" onClick={() => setMenuOpen(false)}>Sobre</Link>
+                <Link href="/sobre" className="p-4" onClick={() => setMenuOpen(false)}>Sobre</Link>
                 <a href="https://drive.google.com/file/d/1pQ26JV6tg-zMKyUQET9btAyaSgvBFD8b/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="p-4" onClick={() => setMenuOpen(false)}>Currículo</a>
                 <a href="mailto:lmesquita2k@gmail.com" className="p-4" onClick={() => setMenuOpen(false)}>Enviar Email</a>
             </nav>
