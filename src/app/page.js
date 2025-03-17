@@ -11,7 +11,7 @@ export default function Home() {
       >
         <h1
           id="intro-title"
-          className="text-gray-400 font-medium max-w-[530px] leading-7"
+          className="text-gray-300  max-w-[524px] leading-8 "
         >
           Lucas é um designer multidisciplinar que cria produtos do zero ao um,
           com o objetivo de criar experiências memoráveis ​​e inesquecíveis para
@@ -24,6 +24,7 @@ export default function Home() {
         <ProjectCard
           slug="umbrella-intranet"
           project={projectsData["umbrella-intranet"]}
+          className="custom-class"
         />
 
         {/* Sessão de Projetos */}
@@ -35,10 +36,15 @@ export default function Home() {
           <h2 id="projects-title" className="sr-only">
             Projetos de Design
           </h2>
-          <ProjectCard slug="ubyfol" project={projectsData["ubyfol"]} />
+          <ProjectCard
+            slug="ubyfol"
+            project={projectsData["ubyfol"]}
+            className="custom-class"
+          />
           <ProjectCard
             slug="rgp"
             project={projectsData["rgp"]}
+            className="custom-class"
           />
         </section>
 
@@ -54,10 +60,12 @@ export default function Home() {
           <ProjectCard
             slug="roof"
             project={projectsData["roof"]}
+            className="custom-class"
           />
           <ProjectCard
-            slug="crypto-app"
-            project={projectsData["crypto-app"]}
+            slug="crypto"
+            project={projectsData["crypto"]}
+            className="custom-class"
           />
         </section>
       </main>
